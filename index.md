@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Comandos git para  subir proyecto
 
 You can use the [editor on GitHub](https://github.com/patricioyanez/ayudaMemoria/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+Comandos para subir a github. Primero: Estar ubicado en la carpeta raiz del proyecto.
 
-# Header 1
-## Header 2
-### Header 3
+Comandos a ejecutar dentro de la carpeta anterior:
 
-- Bulleted
-- List
+git init
 
-1. Numbered
-2. List
+git add .
 
-**Bold** and _Italic_ and `Code` text
+git commit -m "Comentario"
 
-[Link](url) and ![Image](src)
+git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+
+git push -u origin master
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/patricioyanez/ayudaMemoria/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
