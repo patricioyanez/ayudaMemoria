@@ -51,3 +51,25 @@ From https://github.com/patricioyanez/miRepo
  
 Successfully rebased and updated refs/heads/master.
 ```
+
+
+
+#_______________________
+# Volver a versión anterior de un archivo del repositorio
+#_______________________
+
+```markdown
+Para conocer las versiones de los ficheros según los commits, ejecutar:
+git log
+o
+también puede ser
+git log -n    (permite limitar los commits que se leeran). Ej:  git log -n 3 archivo.html
+```
+
+
+```markdown
+Para restaurar un versión anterior, se utilza:
+git checkout codigoDelCommit. Ejemplo:
+git checkout b4a5ebef97b5ee5b543ebe046272f53695c37393
+
+```
